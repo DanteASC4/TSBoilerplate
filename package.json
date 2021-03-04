@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "lint:out": "eslint . --ext .ts -f html -o ./lint-report.html",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
   "dependencies": {
     "typescript": "^4.2.2"
   },
@@ -12,6 +17,7 @@
     "@typescript-eslint/parser": "^4.16.1",
     "eslint": "^7.21.0",
     "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-prettier": "^3.3.1"
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
   }
 }
