@@ -1,0 +1,17 @@
+dist
+
+node_modules
+
+*.log
+
+public
+
+private
+
+jest.config.js
+
+custom-reporter.js
+
+gulpfile.js
+
+temp
